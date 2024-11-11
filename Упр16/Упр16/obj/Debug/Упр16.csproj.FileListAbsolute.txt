@@ -1,0 +1,7 @@
+C:\Users\derin\source\repos\Упр16\Упр16\bin\Debug\Упр16.exe.config
+C:\Users\derin\source\repos\Упр16\Упр16\bin\Debug\Упр16.exe
+C:\Users\derin\source\repos\Упр16\Упр16\bin\Debug\Упр16.pdb
+C:\Users\derin\source\repos\Упр16\Упр16\obj\Debug\Упр16.csproj.AssemblyReference.cache
+C:\Users\derin\source\repos\Упр16\Упр16\obj\Debug\Упр16.csproj.CoreCompileInputs.cache
+C:\Users\derin\source\repos\Упр16\Упр16\obj\Debug\Упр16.exe
+C:\Users\derin\source\repos\Упр16\Упр16\obj\Debug\Упр16.pdb

@@ -1,0 +1,7 @@
+C:\Users\derin\source\repos\Упр17\Упр17\bin\Debug\Упр17.exe.config
+C:\Users\derin\source\repos\Упр17\Упр17\bin\Debug\Упр17.exe
+C:\Users\derin\source\repos\Упр17\Упр17\bin\Debug\Упр17.pdb
+C:\Users\derin\source\repos\Упр17\Упр17\obj\Debug\Упр17.csproj.AssemblyReference.cache
+C:\Users\derin\source\repos\Упр17\Упр17\obj\Debug\Упр17.csproj.CoreCompileInputs.cache
+C:\Users\derin\source\repos\Упр17\Упр17\obj\Debug\Упр17.exe
+C:\Users\derin\source\repos\Упр17\Упр17\obj\Debug\Упр17.pdb
