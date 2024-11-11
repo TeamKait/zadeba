@@ -1,0 +1,7 @@
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\obj\Debug\Упр11.csproj.AssemblyReference.cache
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\obj\Debug\Упр11.csproj.CoreCompileInputs.cache
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\bin\Debug\Упр11.exe.config
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\bin\Debug\Упр11.exe
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\bin\Debug\Упр11.pdb
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\obj\Debug\Упр11.exe
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр11\obj\Debug\Упр11.pdb

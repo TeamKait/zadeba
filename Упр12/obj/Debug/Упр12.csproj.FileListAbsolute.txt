@@ -1,0 +1,7 @@
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\bin\Debug\Упр12.exe.config
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\bin\Debug\Упр12.exe
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\bin\Debug\Упр12.pdb
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\obj\Debug\Упр12.csproj.AssemblyReference.cache
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\obj\Debug\Упр12.csproj.CoreCompileInputs.cache
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\obj\Debug\Упр12.exe
+C:\Users\zadaa\Desktop\Дерин Лющенко\Упр12\obj\Debug\Упр12.pdb

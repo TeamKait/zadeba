@@ -1,0 +1,7 @@
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\obj\Debug\Упр15.csproj.AssemblyReference.cache
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\obj\Debug\Упр15.csproj.CoreCompileInputs.cache
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\bin\Debug\Упр15.exe.config
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\bin\Debug\Упр15.exe
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\bin\Debug\Упр15.pdb
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\obj\Debug\Упр15.exe
+C:\Users\Art\Desktop\Дерин Лющенко\Упр15\obj\Debug\Упр15.pdb

@@ -1,0 +1,14 @@
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\bin\Debug\Упр2.exe.config
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\bin\Debug\Упр2.exe
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\bin\Debug\Упр2.pdb
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\obj\Debug\Упр2.csproj.AssemblyReference.cache
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\obj\Debug\Упр2.csproj.CoreCompileInputs.cache
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\obj\Debug\Упр2.exe
+S:\ИСП211\Дерин Лющенко\Упр2\Упр2\Упр2\obj\Debug\Упр2.pdb
+S:\ИСП211\Дерин Лющенко\Упр2\bin\Debug\Упр2.exe.config
+S:\ИСП211\Дерин Лющенко\Упр2\bin\Debug\Упр2.exe
+S:\ИСП211\Дерин Лющенко\Упр2\bin\Debug\Упр2.pdb
+S:\ИСП211\Дерин Лющенко\Упр2\obj\Debug\Упр2.csproj.AssemblyReference.cache
+S:\ИСП211\Дерин Лющенко\Упр2\obj\Debug\Упр2.csproj.CoreCompileInputs.cache
+S:\ИСП211\Дерин Лющенко\Упр2\obj\Debug\Упр2.exe
+S:\ИСП211\Дерин Лющенко\Упр2\obj\Debug\Упр2.pdb
