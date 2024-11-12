@@ -1,0 +1,7 @@
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\bin\Debug\Упр1.exe.config
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\bin\Debug\Упр1.exe
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\bin\Debug\Упр1.pdb
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\obj\Debug\Упр1.csproj.AssemblyReference.cache
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\obj\Debug\Упр1.csproj.CoreCompileInputs.cache
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\obj\Debug\Упр1.exe
+S:\ИСП211\Дерин Лющенко\Упр1\Упр1\obj\Debug\Упр1.pdb

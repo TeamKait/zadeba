@@ -1,0 +1,7 @@
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\bin\Debug\Упр19.exe.config
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\bin\Debug\Упр19.exe
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\bin\Debug\Упр19.pdb
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\obj\Debug\Упр19.csproj.AssemblyReference.cache
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\obj\Debug\Упр19.csproj.CoreCompileInputs.cache
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\obj\Debug\Упр19.exe
+C:\Users\Art\Desktop\Дерин Лющенко\Упр19\obj\Debug\Упр19.pdb

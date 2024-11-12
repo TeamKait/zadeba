@@ -1,0 +1,7 @@
+S:\ИСП211\Дерин Лющенко\Упр7\bin\Debug\Упр7.exe.config
+S:\ИСП211\Дерин Лющенко\Упр7\bin\Debug\Упр7.exe
+S:\ИСП211\Дерин Лющенко\Упр7\bin\Debug\Упр7.pdb
+S:\ИСП211\Дерин Лющенко\Упр7\obj\Debug\Упр7.csproj.AssemblyReference.cache
+S:\ИСП211\Дерин Лющенко\Упр7\obj\Debug\Упр7.csproj.CoreCompileInputs.cache
+S:\ИСП211\Дерин Лющенко\Упр7\obj\Debug\Упр7.exe
+S:\ИСП211\Дерин Лющенко\Упр7\obj\Debug\Упр7.pdb

@@ -1,0 +1,7 @@
+S:\ИСП211\Дерин Лющенко\упр10\bin\Debug\упр10.exe.config
+S:\ИСП211\Дерин Лющенко\упр10\bin\Debug\упр10.exe
+S:\ИСП211\Дерин Лющенко\упр10\bin\Debug\упр10.pdb
+S:\ИСП211\Дерин Лющенко\упр10\obj\Debug\упр10.csproj.AssemblyReference.cache
+S:\ИСП211\Дерин Лющенко\упр10\obj\Debug\упр10.csproj.CoreCompileInputs.cache
+S:\ИСП211\Дерин Лющенко\упр10\obj\Debug\упр10.exe
+S:\ИСП211\Дерин Лющенко\упр10\obj\Debug\упр10.pdb
