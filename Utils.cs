@@ -31,7 +31,6 @@ public static class Utils
         };
     }
 
-
     /// <summary>
     /// Быстрый ввод переменной + парсинг в переданный тип
     /// </summary>
@@ -48,7 +47,6 @@ public static class Utils
         Console.WriteLine($"Введите {name}:");
         variable = (T)Convert.ChangeType(Console.ReadLine(), typeof(T));
     }
-
 
     /// <summary>
     /// Быстрый вывод переменной
@@ -111,7 +109,6 @@ public static class Utils
         Console.WriteLine();
     }
     
-
     /// <summary>
     /// Вывод красивой ошибки
     /// </summary>
@@ -175,7 +172,7 @@ public static class Utils
     /// <typeparam name="T">Тип переменной (можно вызвать из массива)</typeparam>
     /// <param name="array">Массив (можно вызвать из массива)</param>
     /// <returns>Случайный элемент из массива</returns>
-    public static T PickRandom<T>(this T[] array)
+    public static T PickRandom<T>(this Array array)
     {
         List<T> elements = new List<T>();
         array.Map(item => elements.Add((T)item));
@@ -184,6 +181,29 @@ public static class Utils
     public static string PickRandom(this string str)
     {
         return str[random.Next(str.Length)].ToString();
+    }
+
+    /// <summary>
+    /// Массив [][] => Массив [,]
+    /// </summary>
+    /// <typeparam name="T">Тип массива (можно вызвать из массива)</typeparam>
+    /// <param name="array">массив</param>
+    /// <returns>Массив [,]</returns>
+    public static T[,] ToArray<T>(this T[][] array)
+    {
+        int rows = array.Length;
+        int cols = array[0].Length;
+        T[,] rectArray = new T[rows, cols];
+
+        for(int y = 0; y < rows; y++)
+        {
+            for(int x = 0; x < cols; x++)
+            {
+                rectArray[y, x] = array[y][x];
+            }
+        }
+
+        return rectArray;
     }
 }
 public struct Constants
