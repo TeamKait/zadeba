@@ -5,12 +5,17 @@ using System.Linq;
 
 public static class Utils
 {
+    /*
+     *     ____ ___   __  .__.__          
+     *    |    |   \_/  |_|__|  |   ______
+     *    |    |   /\   __\  |  |  /  ___/
+     *    |    |  /  |  | |  |  |__\___ \ 
+     *    |______/   |__| |__|____/______>
+     */
     private static Stopwatch executionTime = new Stopwatch();
     public static Random random = new Random();
 
-    /// <summary>
-    /// Вывести авторов + время выполнение программы
-    /// </summary>
+    //Print authors
     public static void PrintAuthors()
     {
         Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -31,12 +36,7 @@ public static class Utils
         };
     }
 
-    /// <summary>
-    /// Быстрый ввод переменной + парсинг в переданный тип
-    /// </summary>
-    /// <typeparam name="T">Тип переменной</typeparam>
-    /// <param name="name">Имя переменной (опционально)</param>
-    /// <returns>Ввод с консоли</returns>
+    //Input and parse a variable
     public static T Input<T>(string name)
     {
         Console.WriteLine($"Введите {name}:");
@@ -48,12 +48,7 @@ public static class Utils
         variable = (T)Convert.ChangeType(Console.ReadLine(), typeof(T));
     }
 
-    /// <summary>
-    /// Быстрый вывод переменной
-    /// </summary>
-    /// <typeparam name="T">Тип переменной (опционально, можно вызвать с переменной)</typeparam>
-    /// <param name="variable">Переменная</param>
-    /// <param name="name">Имя (опционально)</param>
+    //Output variable and name
     public static void Output<T>(this T variable, string name = "")
     {
         Console.WriteLine($"{name.Replace(':', '\0')} = {variable}");
@@ -62,7 +57,7 @@ public static class Utils
     {
         Console.WriteLine($"{name.Replace(':', '\0')} = {String.Join(", ", variable)}");
     }
-    public static void Output(this Array array, bool printIndices = false)
+    public static void OutputArray(this Array array, bool printIndices = false)
     {
         int maxLength = 0;
         array.Map(element => { maxLength = Math.Max(maxLength, element.ToString().Length); });
@@ -109,10 +104,7 @@ public static class Utils
         Console.WriteLine();
     }
     
-    /// <summary>
-    /// Вывод красивой ошибки
-    /// </summary>
-    /// <param name="errorMessage">Содержание ошибки</param>
+    //Print fancy error
     public static void PrintError(string errorMessage)
     {
         Console.BackgroundColor = ConsoleColor.DarkRed;
@@ -120,14 +112,7 @@ public static class Utils
         Console.ResetColor();
     }
     
-
-    /// <summary>
-    /// Выполнение действие над массивом любой размерности
-    /// </summary>
-    /// <param name="array">Массив (можно вызвать из него)</param>
-    /// <param name="action">Само действие</param>
-    /// <param name="dimension"></param>
-    /// <param name="indices"></param>
+    //Foreach item in multidimensional array
     public static void Map(this Array array, Func<object, object> action, int dimension = 0, int[] indices = null)
     {
         if(indices == null) indices = new int[array.Rank];
@@ -166,38 +151,16 @@ public static class Utils
         }
     }
 
-    /// <summary>
-    /// Возвращает случайный элемент из массива или строки
-    /// </summary>
-    /// <typeparam name="T">Тип переменной (можно вызвать из массива)</typeparam>
-    /// <param name="array">Массив (можно вызвать из массива)</param>
-    /// <returns>Случайный элемент из массива</returns>
-    public static T PickRandom<T>(this Array array)
-    {
-        List<T> elements = new List<T>();
-        array.Map(item => elements.Add((T)item));
-        return elements[random.Next(elements.Count)];
-    }
-    public static string PickRandom(this string str)
-    {
-        return str[random.Next(str.Length)].ToString();
-    }
-
-    /// <summary>
-    /// Массив [][] => Массив [,]
-    /// </summary>
-    /// <typeparam name="T">Тип массива (можно вызвать из массива)</typeparam>
-    /// <param name="array">массив</param>
-    /// <returns>Массив [,]</returns>
+    //To Array type
     public static T[,] ToArray<T>(this T[][] array)
     {
         int rows = array.Length;
         int cols = array[0].Length;
         T[,] rectArray = new T[rows, cols];
 
-        for(int y = 0; y < rows; y++)
+        for (int y = 0; y < rows; y++)
         {
-            for(int x = 0; x < cols; x++)
+            for (int x = 0; x < cols; x++)
             {
                 rectArray[y, x] = array[y][x];
             }
@@ -205,27 +168,4 @@ public static class Utils
 
         return rectArray;
     }
-}
-public struct Constants
-{
-    /// <summary>
-    /// abcdefghijklmnopqrstuvwxyz
-    /// </summary>
-    public static string lowerAlphabet => "abcdefghijklmnopqrstuvwxyz";
-    /// <summary>
-    /// ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    /// </summary>
-    public static string upperAlphabet => lowerAlphabet.ToUpper();
-    /// <summary>
-    /// 0123456789
-    /// </summary>
-    public static string numbers => "0123456789";
-    /// <summary>
-    /// abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-    /// </summary>
-    public static string fullAlphabet => lowerAlphabet + upperAlphabet;
-    /// <summary>
-    /// 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-    /// </summary>
-    public static string alpabetNumbers => numbers + fullAlphabet;
 }
